@@ -21,5 +21,5 @@ function showData(data) {
     let output = document.getElementById("output");
     
     // Display the title from the fetched data
-    output.innerHTML = `Title: ${data.title}`;
+    output.innerHTML = `${data.title}`;
 }
